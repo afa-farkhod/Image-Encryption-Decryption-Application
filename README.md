@@ -10,6 +10,28 @@ Application provides a user-friendly interface for encrypting and decrypting ima
 
 ## Implementation
 
+- This sample code represents an Encryption and Decryption application that allows users to encrypt and decrypt image files using the AES encryption algorithm. The application has a graphical user interface (GUI) built using JavaFX.
+- The main functionalities of the application include:
+- Encryption:
+    - When the user clicks the "Encrypt Doc" button, a file selection dialog is displayed for the user to choose an image file.
+    - After selecting the file, a dialog prompts the user to enter an encryption key.
+    - The entered key is validated and padded if necessary to match the required key length for AES (128 bits).
+    - The selected file is read, and its contents are encrypted using the encryption key and the AES algorithm.
+    - The encrypted image is saved to a new file named "encrypted_" followed by the original file name.
+    - The encrypted image is then displayed in a separate window.
+- Decryption:
+    - When the user clicks the "Decrypt Doc" button, a dialog is displayed to enter the decryption key.
+    - The entered key is validated and padded if necessary to match the required key length for AES.
+    - The selected encrypted image file is read.
+    - The encrypted data is decrypted using the decryption key and the AES algorithm.
+    - The decrypted data is saved to a new file named "decrypted_" followed by the original file name.
+    - The decrypted image is then displayed in a separate window.
+- GUI:
+    - The GUI consists of a main window with two buttons: "Encrypt Doc" and "Decrypt Doc".
+    - When a user drags and drops an image file onto the main window, the file is selected, and its image is displayed.
+    - The selected file is stored in the selectedFile variable for later encryption or decryption.
+    - Overall, this application provides a user-friendly interface for encrypting and decrypting image files using AES encryption.
+
 - Main window:
 
 ![image](https://github.com/af4092/Image-Encryption-Decryption-Application/assets/24220136/577b2e05-a9dd-4221-9760-45ba36a25a4e)

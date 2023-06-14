@@ -7,11 +7,11 @@ Application provides a user-friendly interface for encrypting and decrypting ima
 ![image](https://github.com/af4092/Image-Encryption-Decryption-Application/assets/24220136/a6a21911-d0b3-4585-9dce-39d7262dcbd3)
 
 - The basic steps of the AES algorithm are as follows:
-        - Key Expansion: Generates a set of round keys from the original encryption key.
-        - Initial Round: XORs the input data with the first round key.
-        - Rounds: Consists of multiple rounds (9, 11, or 13 rounds depending on the key length). Each round applies a series of transformations to the data, including byte substitution, row shifting, column mixing, and XORing with a round key.
-        - Final Round: Performs the last round of transformations without the column mixing step.
-        - Output: The final encrypted (or decrypted) data is obtained.
+     - Key Expansion: Generates a set of round keys from the original encryption key.
+     - Initial Round: XORs the input data with the first round key.
+     - Rounds: Consists of multiple rounds (9, 11, or 13 rounds depending on the key length). Each round applies a series of transformations to the data, including byte substitution, row shifting, column mixing, and XORing with a round key.
+     - Final Round: Performs the last round of transformations without the column mixing step.
+     - Output: The final encrypted (or decrypted) data is obtained.
 - AES is known for its strong security, efficiency, and versatility. It is widely used in various applications, including secure communication, data storage, and cryptographic protocols.
 
 ---------------------------------

@@ -1,6 +1,11 @@
 # Image-Encryption-Decryption-Application
 Application provides a user-friendly interface for encrypting and decrypting image files using AES algorithm
 
+- [Advanced Encryption Standard](https://www.tutorialspoint.com/cryptography/advanced_encryption_standard.htm) - AES (Advanced Encryption Standard) is a widely used symmetric encryption algorithm that provides secure and efficient data encryption and decryption.
+- AES operates on blocks of data, where each block is 128 bits (16 bytes) in size. It supports three key lengths: 128-bit, 192-bit, and 256-bit. The algorithm consists of several rounds of substitution, permutation, and mixing operations, making it highly resistant to cryptographic attacks.
+
+![image](https://github.com/af4092/Image-Encryption-Decryption-Application/assets/24220136/a6a21911-d0b3-4585-9dce-39d7262dcbd3)
+
 ---------------------------------
 
 ## Implementation

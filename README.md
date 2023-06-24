@@ -64,7 +64,7 @@ Application provides a user-friendly interface for encrypting and decrypting ima
 
 ![image](https://github.com/af4092/Image-Encryption-Decryption-Application/assets/24220136/96dc7452-fba3-4301-8c72-1bc028eebe83)
 
-- To decrypt the image, we Drag & Drop the encrypted image file to the Main window and press the `Decrypt Doc` button, then it asks for `Decryption Key`, as we are using Symmetric Key , we decrypted the image with the encrpytion key:
+- To decrypt the image, we Drag & Drop the encrypted image file to the Main window and press the `Decrypt Doc` button, then it asks for `Decryption Key`, as we are using Symmetric Key , we decrypt the image with the same key as the encrpytion key:
 
 ![image](https://github.com/af4092/Image-Encryption-Decryption-Application/assets/24220136/482c63fc-5254-479a-a542-b6f32614ea42)
 

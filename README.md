@@ -52,7 +52,7 @@ Application provides a user-friendly interface for encrypting and decrypting ima
 
 ![image](https://github.com/af4092/Image-Encryption-Decryption-Application/assets/24220136/4c662832-e903-4add-b4ef-7c14f18e1fa3)
 
-- To enter the key, we another Java Api to randomly generate key `RandomKeyGenerator`
+- To enter the key, we run another Java Api to randomly generate key `RandomKeyGenerator`
 
 ![image](https://github.com/af4092/Image-Encryption-Decryption-Application/assets/24220136/edafc24f-751c-4d39-aa5f-92081f67f5bb)
 

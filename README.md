@@ -13,6 +13,10 @@ Application provides a user-friendly interface for encrypting and decrypting ima
      - Final Round: Performs the last round of transformations without the column mixing step.
      - Output: The final encrypted (or decrypted) data is obtained.
 - AES is known for its strong security, efficiency, and versatility. It is widely used in various applications, including secure communication, data storage, and cryptographic protocols.
+- Encryption Process
+     - Here, we restrict to description of a typical round of AES encryption. Each round comprise of four sub-processes. The first round process is depicted below
+ 
+       ![first_round_process](https://github.com/af4092/Image-Encryption-Decryption-Application/assets/24220136/293c46de-2198-44d1-9272-355be1bc2459)
 
 ---------------------------------
 
